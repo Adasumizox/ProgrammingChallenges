@@ -1,0 +1,1 @@
+It's really simple warm-up exercise where you must fix function that multiply two things it's not specified what types are you dealing with and it's important to remembar that you can multiply strings with numbers, but you cannot multiply strings with strings
