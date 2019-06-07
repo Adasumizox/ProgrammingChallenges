@@ -1,0 +1,1 @@
+Modulo is pretty usefull thing in programming
