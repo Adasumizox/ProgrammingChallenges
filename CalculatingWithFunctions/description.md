@@ -1,8 +1,8 @@
-#Calculating with Functions
+# Calculating with Functions
 
-##This time we want to write calculations using functions and get the results. Let's have a look at some examples:
+## This time we want to write calculations using functions and get the results. Let's have a look at some examples:
 
-###JavaScript:
+### JavaScript:
 
 ```
 seven(times(five())); // must return 35
@@ -11,7 +11,7 @@ eight(minus(three())); // must return 5
 six(dividedBy(two())); // must return 3
 ```
 
-###Ruby:
+### Ruby:
 
 ```
 seven(times(five)) # must return 35
@@ -20,7 +20,7 @@ eight(minus(three)) # must return 5
 six(divided_by(two)) # must return 3
 ```
 
-###Requirements:
+### Requirements:
 
 - There must be a function for each number from 0 ("zero") to 9 ("nine")
 - There must be a function for each of the following mathematical operations: plus, minus, times, dividedBy (divided_by in Ruby)
