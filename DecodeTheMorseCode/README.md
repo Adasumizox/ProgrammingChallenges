@@ -1,1 +1,0 @@
-For this exercise you need to know how to use dictionaries in python it's propably the simplest way of solving that problem

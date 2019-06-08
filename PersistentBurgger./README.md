@@ -1,1 +1,0 @@
-It's really hard at first glance but when you acknowledge math it's pretty easy. Still doing it reasonable is hard

@@ -19,7 +19,7 @@ class TestPersistence(unittest.TestCase):
         self.assertEqual(persistence(999), 4, 'Basic test')
         self.assertEqual(persistence(444), 3, 'Basic test')
 
-    def randomtest(self):
+    def test_rand(self):
         for _ in range(50):
             n = randint(1, 500000)
             self.assertEqual(persistence(n), soluce(n) ,'Random inputs should work too')
