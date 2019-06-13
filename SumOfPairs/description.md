@@ -29,3 +29,5 @@ sum_pairs([10, 5, 2, 3, 7, 5],         10)
 Negative numbers and duplicate numbers can and will appear.
 
 > NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements. Be sure your code doesn't time out.
+
+> NOTE_FROM_ME: Try using set, otherwise passing long lists will be propably impossible i spent too much time on this kata because of this long test but it was fun and it is worth solving.
