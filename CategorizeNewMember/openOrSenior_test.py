@@ -17,7 +17,7 @@ class TestOpenOrSenior(unittest.TestCase):
         for _ in range(40):
             arrlen=randint(3,8)
             testarr=[]
-            for i in range(arrlen):
+            for _ in range(arrlen):
                 testarr+=[[randint(0,40)+randint(0,40)+10,randint(-2,27)]]
             self.assertEqual(openOrSenior(testarr),solOOS(testarr),"It should work for random tests too")
 

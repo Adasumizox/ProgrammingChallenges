@@ -18,7 +18,7 @@ class TestDirReduc(unittest.TestCase):
     def test_rand(self):
         def randDir(n):
             a = []
-            for i in range(1, n):
+            for _ in range(1, n):
                 u = randint(0, 3)
                 if (u == 0):
                     a.append("NORTH")
