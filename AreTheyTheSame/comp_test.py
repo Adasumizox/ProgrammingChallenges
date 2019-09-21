@@ -45,7 +45,7 @@ class TestComp(unittest.TestCase):
     def test_rand(self):
         sol=lambda a1, a2: sorted(a1)==sorted([item**.5 for item in a2]) if a1!=None and a2!=None else False
 
-        for i in range(40):
+        for _ in range(40):
             a1=[randint(0,100) for i in range(randint(1,8))]
             a2=[elem*elem for elem in a1]
             if randint(0,1)==1: a2[randint(0,len(a2)-1)]+=1

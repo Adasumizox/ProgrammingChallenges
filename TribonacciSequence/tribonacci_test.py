@@ -23,7 +23,7 @@ class TestTribonacci(unittest.TestCase):
                 seq+=[seq[-3]+seq[-2]+seq[-1]]
             return seq[:n]
 
-        for i in range(40):
+        for _ in range(40):
             sign=[randint(0,20),randint(0,20),randint(0,20)]
             n=randint(0,50)
             self.assertEqual(tribonacci(sign[:], n), soluzionacci(sign,n), "It should work with random inputs too")
