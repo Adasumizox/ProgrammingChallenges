@@ -19,7 +19,7 @@ class TestIsIsogram(unittest.TestCase):
     def test_rand(self):
         def sol_isogram(string): return sorted(list(string.lower()))==sorted(set(string.lower()))
         base="abcdefghijklmnopqrstuvwxyz"
-        for i in range(40):
+        for _ in range(40):
             testtext="".join([base[randint(0,25)] for x in range(randint(5,45))])
             self.assertEqual(is_isogram(testtext),sol_isogram(testtext),"It should work with random inputs too")
 
