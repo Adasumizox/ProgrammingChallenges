@@ -1,6 +1,5 @@
 from repeat_str import repeat_str
 import unittest
-from random import randint, choice
 import string
 
 class TestRepeatStr(unittest.TestCase):
@@ -11,6 +10,7 @@ class TestRepeatStr(unittest.TestCase):
         self.assertEqual(repeat_str(2, 'abc'), 'abcabc')
 
     def test_rand(self):
+        from random import randint, choice
         _repeat_str = lambda n, s: n * s
         chars = string.ascii_letters + string.digits + string.punctuation + string.whitespace
 

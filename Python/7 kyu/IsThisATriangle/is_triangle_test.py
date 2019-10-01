@@ -1,6 +1,5 @@
-from is_triangle import is_traingle
+from is_triangle import is_triangle
 import unittest
-from random import randint
 
 class TestIsTriangle(unittest.TestCase):
     
@@ -22,6 +21,7 @@ class TestIsTriangle(unittest.TestCase):
         self.assertEqual(is_triangle(0, 2, 3), False, "didn't work when sides were 0, 2, 3")
 
     def test_rand(self):
+        from random import randint
         def solution(a, b, c):
             a, b, c = sorted([a, b, c])
             return a + b > c

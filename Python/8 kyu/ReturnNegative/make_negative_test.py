@@ -1,6 +1,5 @@
 from make_negative import make_negative
 import unittest
-from random import randint as rnd
 
 class TestMakeNegative(unittest.TestCase):
     
@@ -12,6 +11,7 @@ class TestMakeNegative(unittest.TestCase):
         self.assertEqual(make_negative(-1),-1)
 
     def test_rand(self):
+        from random import randint as rnd
         number = rnd(1, 1000)
         self.assertEqual(make_negative(number),-abs(number))
         number = rnd(-1000,0)
