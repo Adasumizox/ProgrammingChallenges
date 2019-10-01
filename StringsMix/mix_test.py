@@ -1,7 +1,7 @@
 from mix import mix
 import unittest
 
-class TestValidSolution(unittest.TestCase):
+class TestMix(unittest.TestCase):
     
     def test(self):
         self.assertEqual(mix("Are they here", "yes, they are here"), "2:eeeee/2:yy/=:hh/=:rr")
