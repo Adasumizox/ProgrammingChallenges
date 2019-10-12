@@ -18,7 +18,7 @@ class TestFindShortTest(unittest.TestCase):
             "Classic", "Mine", "ProofOfWork", "ProofOfStake",
             "21inc", "Steem", "Dogecoin", "Waves", "Factom",
             "MadeSafeCoin", "BTC"]
-        for h in range(40):
+        for _ in range(40):
             l = randint(1, 20)
             sL = []
             while True:
