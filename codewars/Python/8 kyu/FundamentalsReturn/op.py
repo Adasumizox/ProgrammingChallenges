@@ -1,0 +1,1 @@
+from operator import add, mul as multiply, div as divide, mod, pow as exponent, sub as subt
